@@ -18,4 +18,4 @@ You can instanciate it like that:
     globe.addImage(48.8566667, 2.3509871, yourImage);
     globe.addImage(58.8566667, 2.2509871, yourOtherImage, {}, clickCallback );
 
-[ Test Me ](http://giuliominetti.github.com/GlobeNotF0und/)
+[ Test Me ](http://giuliominetti.github.io/GlobeNotF0und/)
