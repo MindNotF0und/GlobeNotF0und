@@ -1,21 +1,11 @@
-Simple Globe to put your own data with latitude/longitude
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <h1>Giulio Minetti</h1>
+</head>
+<body>
 
-You can instanciate it like that:
+<p>This is a simple website, it depicts the globe and by changing the coordinates in the index.html file, it will mark your position or the ones you want.</p>
 
-    var canvas = document.getElementById("3DView");
-    var options = {
-       globeBackColor: "#333333FF",
-       globeFrontColor: "#888888aa",
-       globeLinesColor: "#000000FF"
-    };
-
-    var globe = new Globe(canvas,options);
-    
-    var clickCallback = function() {
-       console.log("cliked on image");
-    };
-
-    globe.addImage(48.8566667, 2.3509871, yourImage);
-    globe.addImage(58.8566667, 2.2509871, yourOtherImage, {}, clickCallback );
-
-[ Test Me ](http://giuliominetti.github.io/GlobeNotF0und/)
+</body>
+</html>
